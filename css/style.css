@@ -1,0 +1,467 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.countfect {
+  font-family: "Archivo Black";
+  font-size: 2.5rem;
+  /* more styles here */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+}
+
+header {
+  background: url(../img/mainbg.png) center top no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 946px) {
+  header {
+    min-height: 600px;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  header {
+    min-height: 700px;
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  header {
+    min-height: 900px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  header {
+    min-height: 1100px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  header {
+    min-height: 500px !important;
+  }
+
+  .banner {
+    padding: 20px 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+header .bg-light {
+  background-color: transparent;
+}
+
+header .navbar {
+  padding: 20px 0px;
+}
+
+header .navbar-toggler-icon .fa-bars {
+  border-color: #ffc178;
+}
+
+header .navbar-toggler:focus {
+  outline: 2px solid #ffc178;
+  border-radius: 5px;
+  transform: scale(0.9);
+}
+
+header .navbar-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header .navbar-nav .nav-link {
+  margin-right: 20px;
+  color: #6f8089;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+header .navbar-nav .nav-link:hover,
+header .navbar-nav .nav-link:focus {
+  color: #ffc178;
+  border-bottom: 1px solid #ffc178;
+  padding-bottom: 0px;
+  transition: 0.3s;
+}
+
+header .navbar-nav .active {
+  font-weight: 700;
+}
+
+header .navbar-nav .active .nav-link {
+  color: #ffc178;
+  border-bottom: 1px solid #ffc178;
+  padding-bottom: 0px;
+}
+
+header .navbar-nav .btn {
+  margin-right: 15px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffc178;
+  border: 0px;
+}
+
+header .navbar-nav .btn:hover,
+header .navbar-nav .btn:focus {
+  background: #ffc178 !important;
+  color: white !important;
+  box-shadow: 0 0.125rem 0.25rem #ffc178 !important;
+  border: 0px;
+  transition: 0.3s;
+}
+
+header .nav-item {
+  text-align: center;
+}
+
+/* Banner section css here */
+
+header .banner {
+  padding: 50px 0px 180px;
+}
+
+header .banner h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #ffc178;
+}
+
+header .banner p {
+  color: #6f8089;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+header .banner .btn {
+  margin-right: 15px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: #ffc178;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+header .banner .btn:hover,
+header .banner .btn:focus {
+  background: white;
+  color: #ffc178;
+  border: 1px solid white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+/* Department css starts here */
+
+.department {
+  width: 100%;
+  padding: 0px 0px 100px;
+}
+
+.department .text {
+  text-align: center;
+}
+
+.department .text h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 800;
+  color: black;
+}
+
+.department .text p {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #6f8089;
+}
+
+.department .second {
+  padding: 50px 50px;
+  text-align: center;
+  color: white;
+}
+
+.department .second .one {
+  background-color: #f9703a;
+}
+
+.department .second .two {
+  background-color: #80be41;
+}
+
+.department .second .three {
+  background-color: #ffb157;
+}
+
+/* limitless css starts here */
+
+.limitless {
+  width: 100%;
+  padding: 10px 0px 50px;
+}
+
+.limitless .text-col {
+  padding-left: 20px;
+}
+
+.limitless .vid-col {
+  padding-right: 20px;
+}
+
+.limitless .text-col h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.limitless .text-col p {
+  color: #6f8089;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.limitless .second .students {
+  color: #ffc178;
+  padding-left: 0px;
+}
+
+.limitless .second .students span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.limitless .second .courses {
+  color: #ff5f72;
+  padding-left: 0px;
+}
+
+.limitless .second .courses span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.limitless .second .hours {
+  color: #43cb83;
+  padding-left: 0px;
+}
+
+.limitless .second .hours span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Around section css starts here */
+
+.around {
+  width: 100%;
+  padding: 30px 0px;
+  margin-bottom: 50px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.around .title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.around .col-md-3 {
+  padding: 20px 10px 0px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.around .col-md-3 h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.around .col-md-3 p {
+  margin-bottom: 0px;
+}
+
+.around .col-md-3 .btn {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 20px 0px 0px;
+  text-transform: none;
+  color: #647781;
+}
+
+.around .card {
+  margin-bottom: 50px;
+}
+
+.around .card:hover h6 {
+  color: #ffc178;
+  text-decoration: underline;
+}
+
+.around .card:hover a {
+  color: #252c3a;
+}
+
+.around .card-body .btn-link {
+  padding-left: 0px;
+  font-weight: 500;
+}
+
+/* footer css starts here */
+footer {
+  font-family: "Work Sans", sans-serif;
+}
+.footer-widget {
+  width: 100%;
+  background-color: #252c3a;
+  padding: 70px 0px 10px;
+}
+
+.footer-widget .row {
+  padding-left: 0px;
+}
+
+.footer-widget .col-md-3 {
+  padding-left: 0px;
+  color: #969595;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.footer-widget p {
+  margin: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 20px 0px 0px;
+  text-transform: none;
+  color: #969595;
+}
+
+.footer-widget p a {
+  color: #969595;
+}
+
+.footer-widget .icons {
+  font-size: 18px;
+  color: #4a4a4a;
+  border-top: 1px solid currentColor;
+  margin-top: 20px;
+}
+
+.footer-widget .icons .fab {
+  padding-right: 15px;
+}
+
+.footer-widget .icons .fab:hover {
+  color: #0089fd;
+}
+
+.footer-widget h6 {
+  color: white;
+  font-size: 14px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.footer-widget p span {
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 600;
+  color: #686969;
+}
+
+.footer-widget .last {
+  padding-right: 0px;
+}
+
+.footer-widget .last .input-group {
+  margin-top: 20px;
+}
+
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+  border-radius: 0px;
+  border: 0px;
+  font-size: 12px;
+}
+
+.input-group .form-control:focus {
+  border-radius: 0px;
+  border: 0px;
+  outline-color: transparent;
+}
+
+.footer-widget .last .input-group > .input-group-append > .btn {
+  font-size: 12px;
+  border: 0px;
+  border-radius: 0px;
+  background-color: #ffc178;
+  color: white;
+}
+.footer-widget .last .input-group > .input-group-append > .btn:focus {
+  border-radius: 0px;
+  border: 0px;
+  outline-color: transparent;
+}
+
+.footer-widget .last .input-group::placeholder {
+  outline: none;
+  border: none;
+  font-size: 12px;
+}
+
+/* Footer bottom css starts here */
+.footer-bottom {
+  width: 100%;
+  background-color: #1d232e;
+  color: white;
+  padding: 20px 0px;
+}
+
+.footer-bottom .left {
+  padding: 0px 0px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #686969;
+}
+
+.footer-bottom .nav-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-transform: none;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #686969;
+}
